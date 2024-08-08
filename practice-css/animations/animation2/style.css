@@ -1,10 +1,45 @@
-@keyframes lol {
+@keyframes move {
     to {
-        transform: rotate(360deg);
+        transform: translateX(50px);
     }
 }
-.spinny-boy {
-    animation: lol 1.5s infinite linear;
+
+.dancer {
+    position: relative;
     display: inline-block;
-    font-size: 500px;
+    font-size: 30px;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.dancers-list {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.ease {
+    animation-timing-function: ease;
+}
+
+.ease-in {
+    animation-timing-function: ease-in;
+}
+
+.ease-out {
+    animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+    animation-timing-function: ease-in-out;
+}
+
+.cubic-bezier {
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1); /* Example cubic-bezier values */
 }
