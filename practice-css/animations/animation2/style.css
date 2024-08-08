@@ -1,0 +1,10 @@
+@keyframes lol {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.spinny-boy {
+    animation: lol 1.5s infinite linear;
+    display: inline-block;
+    font-size: 500px;
+}
