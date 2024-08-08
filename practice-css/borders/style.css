@@ -1,0 +1,30 @@
+h1{
+    border-style: solid;
+}
+p{
+    border-style: outset;
+    border-bottom: 5px solid red;
+    border-top:  5px solid #9e5959;
+    border-left: 5px solid orange;
+    border-right: 5px solid lightgreen;
+}
+#p1{border-style: dotted;
+    border-radius: 15;
+}
+#p2 {border-style: dashed;
+    border-color: white;
+}
+#p3{border-style: solid;
+    border-width: 3px;
+}
+#p4{border-style: 5px solid green}
+#p5{border-style: groove;}
+#p6{border-style: ridge;}
+#p7{border-style: inset;}
+#p8 {border-style: outset;}
+#p9 {border-style: none;}
+#p10 {border-style: hidden;}
+#p11 {border-style: dotted dashed solid double;}
+body{
+    background-color: plum;
+}

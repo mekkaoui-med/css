@@ -1,0 +1,17 @@
+.box{
+    border: 2px solid;
+    height: auto;
+    padding: 25px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: aqua;
+}
+* {
+    box-sizing: border-box; 
+
+}
+.container{
+    background-color: gray;
+    height: 100vh;
+}

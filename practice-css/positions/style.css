@@ -1,0 +1,33 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    left: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    position: absolute;
+ 
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+ 
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+ 
+}
